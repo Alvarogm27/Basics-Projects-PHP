@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate your monthly costs</title>
+</head>
+<body>
+    <h1>Are you thinking on saving?</h1>
+    <h2>Introduce your earnings and your expense to see how much money you save</h2>
+    <form action="calculation.php" method="post">
+        <fieldset>
+            <legend>
+                Earnings
+            </legend>
+            <div><label for="earnings"><input type="number" id="earnigs" name="earnings" required> €</label></div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Expenses
+            </legend>
+            <div>
+            <label for="rent">Rent: <input type="number" id="rent" name="rent" required> €</label>
+            </div>
+            <div>
+                <label for="food">Food <input type="number" id="food" name="food" required> €</label>
+            </div>
+            <div>
+                <label for="transport">Transport: <input type="number" name="transport" id="transport" required> €</label>
+            </div>
+            <div>
+                <label for="entertainment">Entertainment: <input type="number" name="entertainment" id="entertainment" required> €</label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
