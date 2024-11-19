@@ -75,7 +75,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #149174;
-=======
+}
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -152,5 +152,5 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #149174;
->>>>>>> 0990920702543f0b596451a320f73ba724c9f19c
+
 }
